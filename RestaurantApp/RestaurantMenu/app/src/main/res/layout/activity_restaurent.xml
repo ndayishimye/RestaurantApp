@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/View_dishes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+
+        android:id="@+id/itemviewdeshes"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="viewdishes"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemviewdetails"
+        android:text="viewdetails"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemallview"
+        android:text="allview"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bviewdishes"
+        android:text="viewdishes"/>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_restaurent"
+        app:menu="@menu/activity_restaurent_drawer" />
+
+
+</LinearLayout>
